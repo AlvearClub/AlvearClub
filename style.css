@@ -1,0 +1,56 @@
+.cuerpo{
+    background-color: rgb(0, 0, 43);
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.contenedor img{
+    width: 250px;
+    height: 150px;
+}
+
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4vh;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    color: #58555E;
+}
+.col-lg-4{
+    margin-bottom: 4vh;
+}
+.categorias img{
+    background-color: rgba(0,0,0,0.8);
+    filter:brightness(0.55);
+}
+.text-Button{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 20px;
+}
+.footer{
+    background-color: var(--white-color);
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5vh;
+  }
+  @media(max-width: 991px){
+    .footer{
+      padding: 20px 50px;
+      flex-direction: column-reverse;
+      text-align: center;
+    }
+  }
+  .text{
+    color: var(--first-color);
+    font-size: 1.8vh;
+  }
